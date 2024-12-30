@@ -1,5 +1,4 @@
-using System;
-using Core.Entities;
+﻿using Core.Entities;
 
 namespace Core.Interfaces;
 
@@ -14,5 +13,4 @@ public interface IProductRepository
     void DeleteProduct(Product product);
     bool ProductExists(int id);
     Task<bool> SaveChangesAsync();
-
 }
